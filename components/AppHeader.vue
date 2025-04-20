@@ -1,0 +1,9 @@
+<template>
+  <header>
+    <nav>
+      <ul>
+        <li>navbar</li>
+      </ul>
+    </nav>
+  </header>
+</template>
