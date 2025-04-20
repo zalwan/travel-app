@@ -6,3 +6,7 @@
     /* dark --prefersdark; */
   logs: true;
 }
+
+.layout-wrapper {
+  @apply grid min-h-screen grid-rows-[auto_1fr_auto];
+}

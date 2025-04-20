@@ -1,14 +1,14 @@
 <template>
-  <header>
-    <nav>
-      <ul>
-        <li>navbar</li>
-      </ul>
-    </nav>
-    <p class="text-primary">lorem</p>
-    <div class="flex gap-2.5">
-      <button class="btn btn-primary">Primary</button>
-      <button class="btn btn-secondary">Secondary</button>
+  <header class="navbar bg-base-100 shadow-sm lg:px-10">
+    <div class="navbar-start gap-x-2">
+      <AppHeaderMobileNav />
+      <AppHeaderLogo />
+    </div>
+    <div class="navbar-center hidden lg:flex">
+      <AppHeaderNav />
+    </div>
+    <div class="navbar-end">
+      <a class="btn btn-primary">Hubungi Kami</a>
     </div>
   </header>
 </template>
