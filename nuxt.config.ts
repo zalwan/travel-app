@@ -1,21 +1,22 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
-import tailwindcss from "@tailwindcss/vite";
+import tailwindcss from '@tailwindcss/vite'
 
 export default defineNuxtConfig({
-  compatibilityDate: "2024-11-01",
+  compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
   app: {
     head: {
-      title: "Travel App Haji & Umrah",
+      title: 'Travel App Haji & Umrah',
       meta: [
-        { name: "description", content: "Travel App Haji & Umrah" },
-        { name: "viewport", content: "width=device-width, initial-scale=1" },
+        { name: 'description', content: 'Travel App Haji & Umrah' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       ],
     },
   },
+  modules: ['@nuxt/icon'],
   vite: {
     plugins: [tailwindcss()],
   },
-  css: ["~/assets/css/main.css"],
-});
+  css: ['~/assets/css/main.css'],
+})

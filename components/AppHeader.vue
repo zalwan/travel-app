@@ -1,5 +1,5 @@
 <template>
-  <header class="navbar bg-base-100 shadow-sm lg:px-10">
+  <header class="sticky top-0 z-50 navbar bg-base-100 shadow-sm lg:px-10">
     <div class="navbar-start gap-x-2">
       <AppHeaderMobileNav />
       <AppHeaderLogo />

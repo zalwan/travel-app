@@ -2,7 +2,7 @@
 
 @plugin "daisyui" {
   themes:
-    light --default,
+    bumblebee --default,
     /* dark --prefersdark; */
   logs: true;
 }
