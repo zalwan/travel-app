@@ -4,7 +4,7 @@
   >
     <aside>
       <NuxtLink to="/">
-        <img src="/assets/img/logo.jpg" alt="Travel Haji Logo" class="h-16 w-full" />
+        <img src="/assets/img/logo.jpg" alt="Travel Haji Logo" class="h-24 w-full" />
       </NuxtLink>
 
       <p class="mt-2">
