@@ -1,5 +1,5 @@
 <template>
   <NuxtLink to="/">
-    <span class="text-xl font-black sm:text-2xl"> Travel Haji </span>
+    <img src="/assets/img/logo.jpg" alt="Travel Haji Logo" class="h-10 sm:h-12" />
   </NuxtLink>
 </template>
