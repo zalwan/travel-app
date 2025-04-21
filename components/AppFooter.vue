@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="footer bg-base-200 p-10 text-base-content sm:footer-horizontal"
+    class="footer bg-white p-10 text-base-content sm:footer-horizontal"
   >
     <aside>
       <NuxtLink to="/">
